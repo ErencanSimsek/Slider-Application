@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <Style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #333;
+            width: 100%;
+            height: 70px;
+        }
+        .navbar h2{
+            color: #fff;
+        }
+        .img{
+            width: 50%;
+            height: 90vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+        .image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .left,.right{
+            cursor: pointer;
+        }
+    </Style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h2>Slider Application</h2>
+        </div>
+        <div class="image">
+            <i class="fa-solid fa-circle-chevron-left fa-5x left"></i>
+            <img class="img" src="" alt="">
+            <i class="fa-solid fa-circle-chevron-right fa-5x right"></i>
+        </div>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>
