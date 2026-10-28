@@ -33,7 +33,7 @@ right.addEventListener('click',function(event){
     }
     img.src=datas[countNumber].img
     clearInterval(interval)
-    nextFun()
+    init()
     event.preventDefault()
 })
 
